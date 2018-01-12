@@ -35,13 +35,13 @@ Pull requests are welcome!
    docker login nvcr.io 
    ```
 3.  pull CUDA image from ngc repository
-    ```
-    docker pull nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04
-    ```
+   ```
+   docker pull nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04
+   ```
 4. docker run with GPU
-    ```
-    nvidia-docker run -ti nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04 bash
-    ```
+   ```
+   nvidia-docker run -ti nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04 bash
+   ```
     
 ### Installing dependencies
 
