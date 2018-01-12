@@ -28,10 +28,18 @@ Pull requests are welcome!
 ## Quick Start
 
 ### NGC on AMI ###
+1.  sign up NGC with below URL : NGC.NVIDIA.COM 
 
+2.  docker login with API key 
+   ```
+   docker login nvcr.io 
+   ```
+3.  pull CUDA image from ngc repository
     ```
     docker pull nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04
-    
+    ```
+4. docker run with GPU
+    ```
     nvidia-docker run -ti nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04 bash
     ```
     
