@@ -28,10 +28,12 @@ Pull requests are welcome!
 ## Quick Start
 
 ### NGC on AMI ###
+
     ```
     docker pull nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04
     nvidia-docker run -ti nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04 bash
     ```
+    
 ### Installing dependencies
 
 1. Install Python 3.
