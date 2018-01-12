@@ -28,22 +28,22 @@ Pull requests are welcome!
 ## Quick Start
 
 ### NGC on AMI ###
-1.  **sign up NGC with below URL : NGC.NVIDIA.COM 
+1.  sign up NGC with below URL : NGC.NVIDIA.COM 
 
-2.  **docker login with API key 
-   ```
+2.  docker login with API key 
+  ```
    docker login nvcr.io 
-   ```
+  ```
    
-3.  **pull CUDA image from ngc repository
-   ```
+3.  pull CUDA image from ngc repository
+  ```
    docker pull nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04
-   ```
+  ```
    
-4. **docker run with GPU
-   ```
+4. docker run with GPU
+  ```
    nvidia-docker run -ti nvcr.io/nvidia/cuda:cuda:9.0-cudnn7-devel-ubuntu16.04 bash
-   ```
+  ```
     
 ### Installing dependencies
 
@@ -57,15 +57,15 @@ Pull requests are welcome!
  
 2. Install the latest version of [TensorFlow](https://www.tensorflow.org/install/) for your platform. For better
    performance, install with GPU support if it's available. This code works with TensorFlow 1.3 or 1.4. 
-   If you want to Volta, use nightly build  1.5 with for CUDA 9.0 and  cuDNN 7.0. 
+  
    
-   ```
+  ```
    pip3 install tensorflow-gpu
-   ```
-   or 
-   ``` 
+  ```
+   or  use nightly build  1.5 with for CUDA 9.0 and  cuDNN 7.0 for NGC with Volta. 
+  ``` 
    pip3 install --upgrade  /tmp/tf_nightly_gpu-1.head-cp35-cp35m-linux_x86_64.whl
-   ```
+  ```
 3. Install requirements:
 
    ```
